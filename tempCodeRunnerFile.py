@@ -1,0 +1,2 @@
+RushHourPuzzle.successorFunction,
+        RushHourPuzzle.isGoal
