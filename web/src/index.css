@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    perspective: 2000px;
+    -webkit-perspective: 2000px;
+  }
+
+  body {
+    @apply bg-[#0a0a0f] text-white antialiased;
+    font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+  }
+
+  ::selection {
+    @apply bg-purple-500/30 text-white;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transform: translateZ(0);
+    will-change: transform;
+  }
+
+  .glass-strong {
+    @apply bg-white/10 backdrop-blur-2xl border border-white/20;
+    box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.5);
+    transform: translateZ(0);
+    will-change: transform;
+  }
+
+  .perspective-2000 {
+    perspective: 2000px;
+  }
+
+  .isometric-view {
+    transform: rotateX(50deg) rotateZ(-45deg) scale(0.8);
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .top-view {
+    transform: rotateX(0deg) rotateZ(0deg) scale(1);
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .neon-glow {
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.4), 0 0 5px rgba(168, 85, 247, 0.2);
+  }
+
+  .neon-text {
+    text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}

@@ -1,0 +1,125 @@
+================================================================================
+                    Rush Hour 풀이집 - 60개 문제
+================================================================================
+
+출처: Michael Fogleman's Rush Hour Database
+웹사이트: https://www.michaelfogleman.com/rush/
+
+이 파일은 데이터베이스 저장용 풀이 데이터입니다.
+
+형식: [번호]|[난이도]|[이동수]|[보드상태]|[온라인풀이URL]
+
+================================================================================
+
+** 풀이 보는 방법 **
+
+1. 온라인 풀이 URL을 브라우저에서 열기
+2. 화면 우측 상단의 "Solve" 버튼 클릭
+3. 자동으로 최적 풀이가 재생됩니다
+4. "Step" 버튼으로 한 단계씩 확인 가능
+5. "Reset" 버튼으로 초기화 후 직접 플레이 가능
+
+화살표 표기:
+- ← 왼쪽으로 이동
+- → 오른쪽으로 이동  
+- ↑ 위로 이동
+- ↓ 아래로 이동
+
+예: A→ = 차량 A를 오른쪽으로 1칸 이동
+
+================================================================================
+
+=== 쉬움 (EASY) - 7~10 moves ===
+
+001|EASY|07|HBBBCCHoIJoKAAIJoKxoEEoooooooooFFFGG|https://www.michaelfogleman.com/static/rush/#HBBBCCHoIJoKAAIJoKxoEEoooooooooFFFGG/7
+002|EASY|07|oooFBBoooFoHAAoFGHCCDDGoooooxooooooo|https://www.michaelfogleman.com/static/rush/#oooFBBoooFoHAAoFGHCCDDGoooooxooooooo/7
+003|EASY|07|oooHIJxCCHIJAAGoIJFoGoooFDDxoooooooo|https://www.michaelfogleman.com/static/rush/#oooHIJxCCHIJAAGoIJFoGoooFDDxoooooooo/7
+004|EASY|08|HoCCCoHDDEEoIxAAKoIJooKooJFFFoGGoooo|https://www.michaelfogleman.com/static/rush/#HoCCCoHDDEEoIxAAKoIJooKooJFFFoGGoooo/8
+005|EASY|08|IBBCCxIoooLMIAAoLMJoKoEEJoKooooxGGHH|https://www.michaelfogleman.com/static/rush/#IBBCCxIoooLMIAAoLMJoKoEEJoKooooxGGHH/8
+006|EASY|08|ooxCCooxEELoHAAKLoHooKFFIJooooIJGGGo|https://www.michaelfogleman.com/static/rush/#ooxCCooxEELoHAAKLoHooKFFIJooooIJGGGo/8
+007|EASY|08|oxCCCoDDooIoAAooIoGHooooGHEEFFGHoooo|https://www.michaelfogleman.com/static/rush/#oxCCCoDDooIoAAooIoGHooooGHEEFFGHoooo/8
+008|EASY|09|EBBBCCEoFGoIAAFGoIooFHDDoooHoooooooo|https://www.michaelfogleman.com/static/rush/#EBBBCCEoFGoIAAFGoIooFHDDoooHoooooooo/9
+009|EASY|10|GHBBCCGHooJKoIAAJKoIDDDKoIooEEFFoooo|https://www.michaelfogleman.com/static/rush/#GHBBCCGHooJKoIAAJKoIDDDKoIooEEFFoooo/10
+010|EASY|10|HBBBooHoxDDoIAAJKoIooJKoIoEEEoFFGGGo|https://www.michaelfogleman.com/static/rush/#HBBBooHoxDDoIAAJKoIooJKoIoEEEoFFGGGo/10
+011|EASY|10|HBBBxoHDDDJoAAoIJoEEoIoooFFGGooooooo|https://www.michaelfogleman.com/static/rush/#HBBBxoHDDDJoAAoIJoEEoIoooFFGGooooooo/10
+012|EASY|10|HoBBBoHoJKoxAAJKLMoxEELMoIoooooIFFGG|https://www.michaelfogleman.com/static/rush/#HoBBBoHoJKoxAAJKLMoxEELMoIoooooIFFGG/10
+013|EASY|10|oBBBGooEooGIoEAAHIoEooHooooFCCDDDFoo|https://www.michaelfogleman.com/static/rush/#oBBBGooEooGIoEAAHIoEooHooooFCCDDDFoo/10
+014|EASY|10|oBBBoHoCCCGHooAAGHoooFDDoooFEEoooFoo|https://www.michaelfogleman.com/static/rush/#oBBBoHoCCCGHooAAGHoooFDDoooFEEoooFoo/10
+015|EASY|10|oCCCoxoooJKLxAAJKLIEEFFFIoooooGGGHHo|https://www.michaelfogleman.com/static/rush/#oCCCoxoooJKLxAAJKLIEEFFFIoooooGGGHHo/10
+016|EASY|10|oooooHooDoGHAADoGHooEFoooCEFoooCEFBB|https://www.michaelfogleman.com/static/rush/#oooooHooDoGHAADoGHooEFoooCEFoooCEFBB/10
+017|EASY|10|ooxoooooFoHIAAFoHIECCCoIEooGoooooGDD|https://www.michaelfogleman.com/static/rush/#ooxoooooFoHIAAFoHIECCCoIEooGoooooGDD/10
+018|EASY|10|ooxoooooGoHIAAGoHICCCooJFooooJFDDEEE|https://www.michaelfogleman.com/static/rush/#ooxoooooGoHIAAGoHICCCooJFooooJFDDEEE/10
+019|EASY|10|xCCKLxoEEKLoAAIoooFFIGGoooJoooooJHHo|https://www.michaelfogleman.com/static/rush/#xCCKLxoEEKLoAAIoooFFIGGoooJoooooJHHo/10
+020|EASY|10|xCCoIoFGooIoFGAAIoooHoooooHDDooooEEo|https://www.michaelfogleman.com/static/rush/#xCCoIoFGooIoFGAAIoooHoooooHDDooooEEo/10
+
+=== 보통 (MEDIUM) - 11~20 moves ===
+
+001|MEDIUM|11|BBooJKGooxJKGAAIoKxoHIEEooHFFFoooooo|https://www.michaelfogleman.com/static/rush/#BBooJKGooxJKGAAIoKxoHIEEooHFFFoooooo/11
+002|MEDIUM|11|HBBCCKHoIDDKHoIAAKooxJoooxoJGGoooooo|https://www.michaelfogleman.com/static/rush/#HBBCCKHoIDDKHoIAAKooxJoooxoJGGoooooo/11
+003|MEDIUM|11|oBBCCCoDDEEEAAooJKIoooJKIoooJxIGGHHo|https://www.michaelfogleman.com/static/rush/#oBBCCCoDDEEEAAooJKIoooJKIoooJxIGGHHo/11
+004|MEDIUM|11|ooBBBxDDDoKLAAJoKLoIJEEEoIFFoooIGGHH|https://www.michaelfogleman.com/static/rush/#ooBBBxDDDoKLAAJoKLoIJEEEoIFFoooIGGHH/11
+005|MEDIUM|11|oooBBBoCCIDDoAAIoJooHEEJooHFFKGGGooK|https://www.michaelfogleman.com/static/rush/#oooBBBoCCIDDoAAIoJooHEEJooHFFKGGGooK/11
+006|MEDIUM|12|GBBICCGooIJoHAAIJLHoooKLDDooKMooxFFM|https://www.michaelfogleman.com/static/rush/#GBBICCGooIJoHAAIJLHoooKLDDooKMooxFFM/12
+007|MEDIUM|12|HBBoxoHooooxIAAooLIoJEELIoJKoLFFJKGG|https://www.michaelfogleman.com/static/rush/#HBBoxoHooooxIAAooLIoJEELIoJKoLFFJKGG/12
+008|MEDIUM|12|IJBBBoIJCCDDAAooKLEEooKLooooxLoGGGHH|https://www.michaelfogleman.com/static/rush/#IJBBBoIJCCDDAAooKLEEooKLooooxLoGGGHH/12
+009|MEDIUM|12|oooooxooxoIooAAoIJDDEEIJooGHFFooGHoo|https://www.michaelfogleman.com/static/rush/#oooooxooxoIooAAoIJDDEEIJooGHFFooGHoo/12
+010|MEDIUM|13|GoxoCCGIooLMGIAALMxoJEEMHoJKooHFFKoo|https://www.michaelfogleman.com/static/rush/#GoxoCCGIooLMGIAALMxoJEEMHoJKooHFFKoo/13
+011|MEDIUM|13|IBBBCCIoDDEEJAALMNJooLMNJoKLoxGGKHHo|https://www.michaelfogleman.com/static/rush/#IBBBCCIoDDEEJAALMNJooLMNJoKLoxGGKHHo/13
+012|MEDIUM|13|ooGHooooGHBBAAGIJoxooIJoEFooKoEFDDKo|https://www.michaelfogleman.com/static/rush/#ooGHooooGHBBAAGIJoxooIJoEFooKoEFDDKo/13
+013|MEDIUM|14|BBBoIJCCooIJAAooIJoGDDDooGoHEEFFoHoo|https://www.michaelfogleman.com/static/rush/#BBBoIJCCooIJAAooIJoGDDDooGoHEEFFoHoo/14
+014|MEDIUM|14|ooBBBooooxIooAAHIoxEEHIoooGFFoooGooo|https://www.michaelfogleman.com/static/rush/#ooBBBooooxIooAAHIoxEEHIoooGFFoooGooo/14
+015|MEDIUM|15|BBBoooCCCoGIAAFoGIEoFoHoEDDoHooooooo|https://www.michaelfogleman.com/static/rush/#BBBoooCCCoGIAAFoGIEoFoHoEDDoHooooooo/15
+016|MEDIUM|15|oxoICCFGoIKLFGAAKLoGHDDoooHJooEEEJoo|https://www.michaelfogleman.com/static/rush/#oxoICCFGoIKLFGAAKLoGHDDoooHJooEEEJoo/15
+017|MEDIUM|16|ooooxKCCCoJKAAIoJoooIDDooHEEoooHFFxo|https://www.michaelfogleman.com/static/rush/#ooooxKCCCoJKAAIoJoooIDDooHEEoooHFFxo/16
+018|MEDIUM|16|oxCCCKoooJoKoAAJoLoxIEELooIFFFoGGGHH|https://www.michaelfogleman.com/static/rush/#oxCCCKoooJoKoAAJoLoxIEELooIFFFoGGGHH/16
+019|MEDIUM|19|ooIJBBooIJKLoAAoKLCCDDKoHEEFFoHoGGGo|https://www.michaelfogleman.com/static/rush/#ooIJBBooIJKLoAAoKLCCDDKoHEEFFoHoGGGo/19
+020|MEDIUM|20|xDDKoMoEEKoMxoJAAMooJLFFoooLGGoHHIIo|https://www.michaelfogleman.com/static/rush/#xDDKoMoEEKoMxoJAAMooJLFFoooLGGoHHIIo/20
+
+=== 어려움 (HARD) - 21~25 moves ===
+
+001|HARD|21|BBBoJKCCCoJKGHAAJoGHIoooGHIDDxFFFooo|https://www.michaelfogleman.com/static/rush/#BBBoJKCCCoJKGHAAJoGHIoooGHIDDxFFFooo/21
+002|HARD|21|ooxKCCoIJKoooIJAAMDDDoLMoEEoLxoGGHHo|https://www.michaelfogleman.com/static/rush/#ooxKCCoIJKoooIJAAMDDDoLMoEEoLxoGGHHo/21
+003|HARD|21|xoICCoGHIoLoGHAALMDDDKLMooJKooooJEEx|https://www.michaelfogleman.com/static/rush/#xoICCoGHIoLoGHAALMDDDKLMooJKooooJEEx/21
+004|HARD|21|xoJCCLIoJDDLIAAKooIooKEEFFoxHHoooooo|https://www.michaelfogleman.com/static/rush/#xoJCCLIoJDDLIAAKooIooKEEFFoxHHoooooo/21
+005|HARD|22|BBooIKGCCoIKGAAoJKDDHoJoooHEEEooxooo|https://www.michaelfogleman.com/static/rush/#BBooIKGCCoIKGAAoJKDDHoJoooHEEEooxooo/22
+006|HARD|22|FooHooFooHJKFAAIJKBBBIJKooGCCoDDGEEo|https://www.michaelfogleman.com/static/rush/#FooHooFooHJKFAAIJKBBBIJKooGCCoDDGEEo/22
+007|HARD|22|HBBCCKHoIooKHoIAALxEEJoLoooJFFooooox|https://www.michaelfogleman.com/static/rush/#HBBCCKHoIooKHoIAALxEEJoLoooJFFooooox/22
+008|HARD|23|BBCCoxJooLEEJAALMoKxGGMoKHHIIooooooo|https://www.michaelfogleman.com/static/rush/#BBCCoxJooLEEJAALMoKxGGMoKHHIIooooooo/23
+009|HARD|23|IBBooxIKLoooJKLAANJDDMoNJoxMFFGGHHHo|https://www.michaelfogleman.com/static/rush/#IBBooxIKLoooJKLAANJDDMoNJoxMFFGGHHHo/23
+010|HARD|23|IBBoxoIxKoEEAAKooMJoKFFMJGGLoMHHoLoo|https://www.michaelfogleman.com/static/rush/#IBBoxoIxKoEEAAKooMJoKFFMJGGLoMHHoLoo/23
+011|HARD|23|ooooxMCCDDLMAAKoLooJKEEooJFFoxHHIIIo|https://www.michaelfogleman.com/static/rush/#ooooxMCCDDLMAAKoLooJKEEooJFFoxHHIIIo/23
+012|HARD|23|ooxoLoCCJxLMAAJoLMIEEFFMIGGKooHHoKoo|https://www.michaelfogleman.com/static/rush/#ooxoLoCCJxLMAAJoLMIEEFFMIGGKooHHoKoo/23
+013|HARD|23|xoKCCCooKLooIAALooIJDDEExJGGMNHHooMN|https://www.michaelfogleman.com/static/rush/#xoKCCCooKLooIAALooIJDDEExJGGMNHHooMN/23
+014|HARD|24|HIBBoxHIoooxHAAKooooJKEEooJFFLooJGGL|https://www.michaelfogleman.com/static/rush/#HIBBoxHIoooxHAAKooooJKEEooJFFLooJGGL/24
+015|HARD|24|IoKBBBIoKLCCIAALoMJoDDoMJxFFoMGGHHoo|https://www.michaelfogleman.com/static/rush/#IoKBBBIoKLCCIAALoMJoDDoMJxFFoMGGHHoo/24
+016|HARD|24|oBBoxoDDEELoIAAKLoIoJKFFooJGGMHHoooM|https://www.michaelfogleman.com/static/rush/#oBBoxoDDEELoIAAKLoIoJKFFooJGGMHHoooM/24
+017|HARD|24|ooBBBKoxooJKoHAAJooHDDJooHIooxFFIGGo|https://www.michaelfogleman.com/static/rush/#ooBBBKoxooJKoHAAJooHDDJooHIooxFFIGGo/24
+018|HARD|24|ooHooKBBHooKAAIooLxGIDDLoGoJEEoFFJoo|https://www.michaelfogleman.com/static/rush/#ooHooKBBHooKAAIooLxGIDDLoGoJEEoFFJoo/24
+019|HARD|24|ooxJooooIJCCAAIoKLHDDoKLHEEoKoFFoxoo|https://www.michaelfogleman.com/static/rush/#ooxJooooIJCCAAIoKLHDDoKLHEEoKoFFoxoo/24
+020|HARD|25|HoCCCoHooKDDxAAKLMIEEELMIJFFLMoJGGoo|https://www.michaelfogleman.com/static/rush/#HoCCCoHooKDDxAAKLMIEEELMIJFFLMoJGGoo/25
+
+================================================================================
+
+데이터베이스 임포트 예시 (SQL):
+
+CREATE TABLE rush_puzzles (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    puzzle_no INTEGER,
+    difficulty VARCHAR(10),
+    moves INTEGER,
+    board_state TEXT,
+    solution_url TEXT
+);
+
+-- 파이프(|) 구분자로 임포트
+COPY rush_puzzles(puzzle_no, difficulty, moves, board_state, solution_url)
+FROM 'rush_puzzles_solutions.txt'
+DELIMITER '|'
+WHERE line NOT LIKE '=%' AND line NOT LIKE '**%' AND length(line) > 10;
+
+================================================================================
+
+생성 일시: 2026-01-05
+전체 문제 수: 60개 (쉬움 20, 보통 20, 어려움 20)
+
+================================================================================
