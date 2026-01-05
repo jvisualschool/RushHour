@@ -8,6 +8,20 @@
 
 ---
 
+## 🔗 Live Demo
+안드로이드, iOS 모바일 및 PC 브라우저에서 바로 플레이하실 수 있습니다.  
+👉 **[https://jvibeschool.org/RUSH/](https://jvibeschool.org/RUSH/)**
+
+---
+
+## 📸 Screenshots
+| | |
+| :---: | :---: |
+| ![Screenshot 1](screenshot/1.png) | ![Screenshot 2](screenshot/2.png) |
+| ![Screenshot 3](screenshot/3.png) | ![Screenshot 4](screenshot/4.png) |
+
+---
+
 ## 📖 게임의 유래 (Origins of Rush Hour)
 
 러시아워(Rush Hour) 퍼즐은 1970년대 후반, 일본의 퍼즐 발명가 **노브 요시가하라(Nob Yoshigahara)**에 의해 고안되었습니다. 1996년 ThinkFun(당시 Binary Arts)사를 통해 공식 출시된 이후, 전 세계적으로 수백만 개가 판매되며 가장 사랑받는 슬라이딩 블록 퍼즐 중 하나가 되었습니다.
@@ -54,8 +68,8 @@
 
 ### 1. 프로젝트 복제
 ```bash
-git clone https://github.com/nadjibdje/RushHourGame.git
-cd RushHourGame/web
+git clone https://github.com/jvisualschool/RushHour.git
+cd RushHour/web
 ```
 
 ### 2. 의존성 설치
@@ -79,7 +93,7 @@ npm run build
 
 - **Creator**: [Jinho Jung](mailto:jvisualschool@gmail.com)
 - **Email**: jvisualschool@gmail.com
-- **Repository**: [GitHub Link](https://github.com/nadjibdje/RushHourGame)
+- **Repository**: [https://github.com/jvisualschool/RushHour](https://github.com/jvisualschool/RushHour)
 
 ---
 
