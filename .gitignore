@@ -209,3 +209,4 @@ __marimo__/
 # Server configuration (contains sensitive information)
 .server-config.json
 .DS_Store
+.cache_ggshield
